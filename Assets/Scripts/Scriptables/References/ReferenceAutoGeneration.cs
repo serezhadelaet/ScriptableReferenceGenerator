@@ -2,6 +2,6 @@ using System;
 
 namespace Scriptables.References
 {
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
+    [AttributeUsage(AttributeTargets.Class)]
     public class ReferenceAutoGeneration : Attribute {}
 }
